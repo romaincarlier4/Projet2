@@ -17,14 +17,22 @@ def homepage():
 
     return render_template("index.html", title = title)
     
+@app.route('/app')
+def appli():
+    return render_template("app.html")
 
-@app.route('/about/documentation')
-def documentation():
-    return render_template("documentation.html")
-
-@app.route('/stat')
-def stat():
-    return render_template("stathub.html")
+    
+@app.route('/projet')
+def projectPage():
+    return render_template("projet.html")
+    
+@app.route('/projet/documentation')
+def documentationPage():
+    return render_template("doc.html")
+    
+@app.route('/projet/credits')
+def creditsPage():
+    return render_template("credits.html")
 
 @app.route('/stat/LEPL1402')
 def LEPL():

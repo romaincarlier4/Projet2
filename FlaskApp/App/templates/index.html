@@ -1,22 +1,24 @@
+<!-- Ralph Abona, Avril 2020 -->
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
+    
+    <!-- Métadonnées -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+    <!-- Titre -->
     <title>Grady</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
 
-        <!-- Favicon & Icon -->
-    <link href="static/assets/img/favicon.png" rel="icon">
-    <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicon/logo -->
+    <link href="/static/assets/img/favicon.png" rel="icon">
+    <link href="/static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- CSS Files -->
+    <!-- Fichiers CSS -->
     <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -24,16 +26,14 @@
     <link href="static/assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="static/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
-
-    <!-- Main CSS File -->
     <link href="static/assets/css/style.css" rel="stylesheet">
-
 
 </head>
 
+<!-- Corps -->
 <body>
 
-    <!-- ======= Header ======= -->
+    <!-- ======= Entête ======= -->
     <header id="header" class="fixed-top d-flex align-items-center">
         <div class="container">
             <div class="header-container d-flex align-items-center">
@@ -41,7 +41,7 @@
                     <h1 class="text-light"><a href="index.html"><span>Grady</span></a></h1>
                 </div>
         
-
+        <!-- Navigation -->
         <nav class="nav-menu d-none d-lg-block">
             <ul>
                 <li class="active"><a href="#header">Acceuil</a></li>
@@ -64,52 +64,50 @@
                         </li>
                     </ul>
                 </li>
-            <li class="get-started"><a href="/stat/LEPL1402">Utiliser</a></li>
+            <li class="get-started"><a href="/app">Utiliser</a></li>
             </ul>
-        </nav><!-- .nav-menu -->
-            </div><!-- End Header Container -->
+        </nav>
+            </div>
         </div>
-    </header><!-- End Header -->
+    </header>
 
-    <!-- ======= Hero Section ======= -->
+    <!-- ======= Section "utiliser" ======= -->
     <section id="hero" class="d-flex align-items-center">
         <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="400">
             <h1>Votre nouvel outil</h1>
             <h2>Visualation de soumissions INGInious</h2>
-            <a href="/stat/LEPL1402" class="btn-get-started scrollto">Utiliser</a>
+            <a href="/app" class="btn-get-started scrollto">Utiliser</a>
         </div>
-    </section><!-- End Hero -->
+    </section>
 
     <main id="main">
 
-        <!-- ======= Clients Section ======= -->
+        <!-- ======= Section Logos ======= -->
         <section id="clients" class="clients" >
             <div class="container" >
-
                 <div class="row">
-
                     <div class="col" data-aos="zoom-in" data-aos-delay="500">
                         <a href="https://uclouvain.be/">
-                            <img src="static/assets/img/clients/client-1.png" class="img-fluid" alt="">
+                            <img src="static/assets/img/clients/client-1.png" class="img-fluid" alt=""><!-- Logo et lien UCLouvain -->
                         </a>
                     </div>
-
+ 
                     <div class="col" data-aos="zoom-in" data-aos-delay="1000">
                         <a href="https://uclouvain.be/fr/facultes/epl/">
-                            <img src="static/assets/img/clients/client-2.png" class="img-fluid" alt="">
+                            <img src="static/assets/img/clients/client-2.png" class="img-fluid" alt=""><!-- Logo et lien EPL -->
                         </a>
                     </div>
 
                     <div class="col" data-aos="zoom-in" data-aos-delay="1500">
                         <a href="https://inginious.org">
-                            <img src="static/assets/img/clients/client-3.png" class="img-fluid" alt="">
+                            <img src="static/assets/img/clients/client-3.png" class="img-fluid" alt=""><!-- Logo et lien INGInious -->
                         </a>
                     </div>
                 </div>
             </div>
-        </section><!-- End Clients Section -->
+        </section>
 
-    <!-- ======= About Section ======= -->
+    <!-- ======= Section "présentation" ======= -->
     <section id="pres" class="about">
         <div class="container">
 
@@ -123,9 +121,9 @@
             Durant le premier projet, on nous a proposé d'écrire nos propres exercices en python pour la plate-forme INGInious qui est déployée à l’UCLouvain, et où des des dizaines de milliers de soumissions sont faites chaque semaine. Le but de ce projet est de synthétiser les soumission qui y sont faites grâce à un application de notre qui :
                 </p>
             <ul>
-              <li><i></i>- Fonctionne grâce au framework <a href="https://chartjs.org/">Flask</a></li>
+              <li><i></i>- Fonctionne grâce au framework <a href="https://chartjs.org/"><b>Flask</b></a></li>
               <li><i></i>- Synthétise les données de manière pertinente</li>
-              <li><i></i>- Affiche des tableaux <a href="https://palletsprojects.com/p/flask/">Chart.js</a></li></li>
+              <li><i></i>- Affiche des tableaux <a href="https://palletsprojects.com/p/flask/"><b>Chart.js</b></a></li></li>
             </ul>
             <p class="font-italic">
               Nous avons utiliser plusieurs éléments css et bootstrap déjà existants, tout est dans l'onglet "crédits"
@@ -134,9 +132,9 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-    <!-- ======= Counts Section ======= -->
+    <!-- ======= Section décompte ======= -->
     <section id="counts" class="counts">
       <div class="container">
         <div class="container text-center position-relative" data-aos="zoom-in" data-aos-delay="100">
@@ -151,19 +149,19 @@
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <p>environ</p>
-            <span data-toggle="counter-up">800000</span>
+            <p>exactement</p>
+            <span data-toggle="counter-up">885323</span>
             <p>soumissions</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <p>~</p>
+            <p>environ</p>
             <span data-toggle="counter-up">400</span>
             <p>tâches</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <p>parmi au moins</p>
+            <p>parmi</p>
             <span data-toggle="counter-up">3</span>
             <p>cours différents</p>
           </div>
@@ -171,9 +169,9 @@
         </div>
 
       </div>
-    </section><!-- End Counts Section -->
+    </section>
 
-    <!-- ======= Why Us Section ======= -->
+    <!-- ======= Section "pourquoi" ======= -->
     <section id="why" class="why-us">
       <div class="container">
 
@@ -214,28 +212,28 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End content-->
+            </div>
           </div>
         </div>
 
       </div>
-    </section><!-- End Why Section -->
+    </section>
     
-        <!-- ======= Cta Section ======= -->
+        <!-- ======= Section Git ======= -->
     <section id="cta" class="cta">
       <div class="container">
 
         <div class="text-center" data-aos="zoom-in">
           <h3>Opensource</h3>
           <p> Le document du projet est disponible pour tous sur GitHub</p>
-          <a class="cta-btn" href="#">Git</a>
+          <a class="cta-btn" href="#">Git</a><!-- Logo et lien INGInious -->lien et logo GitHub
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
+    </section>
 
 
-    <!-- ======= Team Section ======= -->
+    <!-- ======= Section "l'équipe" ======= -->
     <section id="team" class="team">
       <div class="container">
 
@@ -267,8 +265,8 @@
                   <div class="pic"><img src="static/assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>Ralph Abona</h4>
-                    <span>HTML</span>
-                    <p>La quasi-totalité partie du site web HTML (design inclus) et de la structure de l'application Flask</p>
+                    <span>HTML, CSS, JS et Chart.js</span>
+                    <p>Réalisation de la quasi-totalité partie du site web HTML et de tout l'habillage (CSS et JS) du site web et des diagrammes Chart.js</p>
                     <div class="social">
                       <a href="mailto:ralph.abona@student.uclouvain.be"><i class="ri-mail-fill"></i></a>
                     </div>
@@ -282,7 +280,7 @@
                   <div class="member-info">
                     <h4>Igor Bertrand</h4>
                     <span>Python et SQLite</span>
-                    <p>Bla bla bla bla</p>
+                    <p>Majeure partie de l'application flask, code app.py, extraction des données de la base de données inginious.sqlite</p>
                     <div class="social">
                       <a href="mailto:igor.bertrand@student.uclouvain.be"><i class="ri-mail-fill"></i></a>
                     </div>
@@ -295,8 +293,8 @@
                   <div class="pic"><img src="static/assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>Romain Carlier</h4>
-                    <span>Python et Chart.js</span>
-                    <p>Bla bla bla bla</p>
+                    <span>Flask et Chart.js</span>
+                    <p>Application flask et Charts</p>
                     <div class="social">
                       <a href="mailto:romain.carlier@student.uclouvain.be"><i class="ri-mail-fill"></i></a>
                     </div>
@@ -310,7 +308,7 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
     
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -327,33 +325,37 @@
             <div class="owl-carousel testimonials-carousel">
             
               <div class="testimonial-item">
-                
                     <p>
                         <div style = "position:relative; top:-10px;">
-                            <h4>Comment fonctionne internet</h4>
+                            <!-- Titre du feedback -->
+                            <h4>Approfondissement</h4>
                         </div>
                       <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Ce projet m'a permis de m'intéresser de beaucoup plus près à des choses assez basiques comme l'HTML, le SQL et le fonctionnement d'un site web en général, très enrichissant.
+                      <!-- Feedback -->
+                      Projet très enrichissant car il m'a permis de mettre en pratique des connaissaces en HTML et CSS et JS que j'avais déjà et de m'intéresser de plus près à des outils tels que <a href="https://palletsprojects.com/p/flask/"><b>Flask</b></a>, <a href="https://chartjs.org"><b>Chart.js</b></a> ou encore SQLite que je connais peu ou pas.
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                
                 <img src="static/assets/img/team/team-2.jpg" class="testimonial-img" alt="">
+                <!-- Nom -->
                 <h3>Ralph Abona</h3>
               </div>
 
               <div class="testimonial-item">
                 <p>
-                <h4>Titre du feedback</h4>
+                <!-- Titre du feedback -->
+                <h4>Découvertes</h4>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                  <!-- Feedback -->
+                  Grâce à ce projet, j'ai découvert de nombreux nouveaux outils tel que le language HTML/CSS, qui permet la création de sites internets, mais aussi les micro framework, dans notre cas, Flask, qui seront, j'en suis sûr, très important dans notre future vie professionelle.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="static/assets/img/team/team-3.jpg" class="testimonial-img" alt="">
+                <!-- Nom -->
                 <h3>Igor Bertrand</h3>
               </div>
-
               <div class="testimonial-item">
                 <p>
+                <!-- Titre du feedback -->
                 <h4>Titre du feedback</h4>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
@@ -362,18 +364,14 @@
                 <img src="static/assets/img/team/team-4.jpg" class="testimonial-img" alt="">
                 <h3>Romain Carlier</h3>
               </div>
-
             </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>
+  </main>
 
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
+  <!-- ======= Pied de page ======= -->
   <footer id="footer">
 
     <div class="container d-md-flex py-4">
@@ -387,25 +385,23 @@
         </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="static/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="static/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="static/assets/vendor/php-email-form/validate.js"></script>
-  <script src="static/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="static/assets/vendor/counterup/counterup.min.js"></script>
-  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="static/assets/vendor/venobox/venobox.min.js"></script>
-  <script src="static/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="static/assets/vendor/aos/aos.js"></script>
-
-  <!-- Main JS File -->
-  <script src="static/assets/js/main.js"></script>
-
+    <!-- Fichiers JS -->
+    <script src="static/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="static/assets/vendor/php-email-form/validate.js"></script>
+    <script src="static/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="static/assets/vendor/counterup/counterup.min.js"></script>
+    <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="static/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="static/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="static/assets/vendor/aos/aos.js"></script>
+    <script src="static/assets/js/main.js"></script>
+  
 </body>
-
+  
 </html>
