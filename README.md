@@ -1,5 +1,5 @@
 # Projet2 - ReadMe
- ![version](https://img.shields.io/badge/version-2.0.0-blue.svg) 
+ ![version](https://img.shields.io/badge/version-2.1.0-blue.svg) 
 Rédigé par Ralph Abona
 
 ## Structure de fichiers
@@ -110,7 +110,7 @@ Etapes pour lancer le site:
 ### Problèmes d'affichage
 Des bugs d'affichages peuvent être observés si 
 - Un navigateur non supporté ou non mis-à-jour est utilisé
-- Site le site est affiché sur un écran ayant un ration non standard 
+- Si le site est affiché sur un écran ayant un ration non standard 
 
 ## Licensing
 
