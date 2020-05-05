@@ -1,6 +1,6 @@
 # Projet2 - ReadMe
  ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) 
-Rédigé par Ralph Abona
+Rédigé par Ralph Abona et Igor Bertrand
 
 ## Structure de fichiers
 Après téléchargement, vous trouverez les répertoires et fichiers suivants:
@@ -88,6 +88,10 @@ Le projet fonctionne de manière optimale avec les navigateur suivants :
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64">  <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64">
 
 De légers bugs d'affichage peuvent être constatés avec chrome.
+
+## Comment utiliser l'application
+
+## Problèmes courants
 
 ## Licensing
 
