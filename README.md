@@ -1,6 +1,6 @@
 # Projet2 - ReadMe
- ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) 
-Rédigé par Ralph Abona et Igor Bertrand
+ ![version](https://img.shields.io/badge/version-2.0.0-blue.svg) 
+Rédigé par Ralph Abona
 
 ## Structure de fichiers
 Après téléchargement, vous trouverez les répertoires et fichiers suivants:
@@ -91,7 +91,26 @@ De légers bugs d'affichage peuvent être constatés avec chrome.
 
 ## Comment utiliser l'application
 
+Etapes pour lancer le site:
+
+1) Ouvrir l'invite de commande et se rendre dans le fichier "..\Projet2", c'est à dire le fichier parent de Groupe10
+
+2) Lancer la commande "Projet2\Scripts\activate" pour activer l'environnement virtuel
+
+3) Rendez vous dans le fichier App grâce à la commande "cd Projet2\FlaskApp\App"
+
+4) Lancer la commande "flask run"
+
+5) Ouvrez votre navigateur et taper dans la barre de recherche "http://127.0.0.1:5000"
+
+6) Pour fermer votre environement virtuel, rentrer la la commande "deactivate"
+
 ## Problèmes courants
+
+### Problèmes d'affichage
+Des bugs d'affichages peuvent être observés si 
+- Un navigateur non supporté ou non mis-à-jour est utilisé
+- Site le site est affiché sur un écran ayant un ration non standard 
 
 ## Licensing
 
