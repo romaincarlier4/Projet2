@@ -1,5 +1,5 @@
 # Projet2 - ReadMe
- ![version](https://img.shields.io/badge/version-2.1.0-blue.svg) 
+ ![version](https://img.shields.io/badge/version-2.1.0-purple.svg) 
 Rédigé par Ralph Abona
 
 ## Structure de fichiers
