@@ -87,7 +87,7 @@ Le projet fonctionne de manière optimale avec les navigateur suivants :
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64">  <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64">
 
-De légers bugs d'affichage peuvent être constatés avec chrome.
+De légers bugs d'affichage peuvent être constatés avec Safari.
 
 ## Comment utiliser l'application
 
@@ -110,10 +110,10 @@ Etapes pour lancer le site:
 ### Problèmes d'affichage
 Des bugs d'affichages peuvent être observés si 
 - Un navigateur non supporté ou non mis-à-jour est utilisé
-- Si le site est affiché sur un écran ayant un ration non standard 
+- Si le site est affiché sur un écran ayant un ration non standard
 
 ## Licensing
 
-- Copyright Avril 2020 Ralph Abona, Igor Bertrand & Romain Carlier
-- Sous licence MIT (https://github.com/byralph/Projet2/LICENSE.md)
+- Avril 2020 Ralph Abona, Igor Bertrand & Romain Carlier
+- Licence (https://github.com/byralph/Projet2/LICENSE.md)
 
