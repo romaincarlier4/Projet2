@@ -91,26 +91,39 @@ De légers bugs d'affichage peuvent être constatés avec Safari.
 
 ## Comment utiliser l'application
 
-Etapes pour lancer le site:
+### Lancer l'application :
 
-1) Ouvrir l'invite de commande et se rendre dans le fichier "..\Projet2", c'est à dire le fichier parent de Groupe10
+#### Sur Windows
 
-2) Lancer la commande "Projet2\Scripts\activate" pour activer l'environnement virtuel
+1) Créé un environnement virtuel, pour cela, rendez vous dans le dossier parent au dossier de notre projet ( ..\Projet2) puis lancer ceci, « python3 -m venv Projet2». Normalement, votre environnement est crée.
 
-3) Rendez vous dans le fichier App grâce à la commande "cd Projet2\FlaskApp\App"
+2) Ensuite, activer votre environnement comme ceci : « Projet2\Scripts\activate ».
 
-4) Lancer la commande "flask run"
+3) Téléchargez flask : rendez vous dans le dossier Projet2 et lancer la commande « pip install flask »
 
-5) Ouvrez votre navigateur et taper dans la barre de recherche "http://127.0.0.1:5000"
+4) Une fois flask installé, rendez vous dans le dossier App (« Projet2\FlaskApp\App ») et lancer la commande « flask run » depuis ce dossier.
 
-6) Pour fermer votre environement virtuel, rentrer la la commande "deactivate"
+5) Pour finir, rendez vous dans votre navigateur et taper l’url qui vous est donnée dans l’invite de commande ("http://127.0.0.1:5000/").
+
+
+#### Sur MacOS/Linux
+
+1) Créé un environnement virtuel, pour cela, rendez vous dans le dossier parent au dossier de notre projet ( ..\Projet2) puis lancer ceci, « python3 -m venv Projet2». Normalement, votre environnement est crée.
+
+2) Ensuite, activer votre environnement comme ceci : « source Projet2/bin/activate ».
+
+3) Téléchargez flask : rendez vous dans le dossier Projet2 et lancer la commande « pip install flask »
+
+4) Une fois flask installé, rendez vous dans le dossier App (« Projet2\FlaskApp\App ») et lancer la commande « flask run » depuis ce dossier.
+
+5) Pour finir, rendez vous dans votre navigateur et taper l’url qui vous est donnée dans l’invite de commande ("http://127.0.0.1:5000/").
 
 ## Problèmes courants
 
 ### Problèmes d'affichage
 Des bugs d'affichages peuvent être observés si 
 - Un navigateur non supporté ou non mis-à-jour est utilisé
-- Si le site est affiché sur un écran ayant un ration non standard
+- Si le site est affiché sur un écran ayant un ratio non standard
 
 ## Licensing
 
