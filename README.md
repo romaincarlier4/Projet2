@@ -91,6 +91,10 @@ De légers bugs d'affichage peuvent être constatés avec Safari.
 
 ## Comment utiliser l'application
 
+## Placer la base de donnée :
+
+La base de donnée doit être placée dans le dossier App (Projet2\FlaskApp\App)
+
 ### Lancer l'application :
 
 #### Sur Windows
